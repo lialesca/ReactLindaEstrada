@@ -1,0 +1,33 @@
+
+.CartWidget__container{
+    display: flex;
+    justify-content:space-around ;
+    max-width:10%;
+    min-width: 60px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.CartWidget__container p{
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid 1px #EBB9AD;
+    width: 15px;
+    height: 15px;
+    background-color: #EBB9AD;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+
+}
+.CartWidget__container span{
+    font-size: 25px;
+}
+

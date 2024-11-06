@@ -12,7 +12,8 @@
 
 .navbar__container_logo{
     display: flex;
-    width: 450px;
+    max-width: 30%;
+    min-width: 315px;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -21,4 +22,36 @@
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
     font-weight: 700;
+}
+
+
+.navbar__menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    min-width: 400px;
+    align-items: center;
+}
+
+.navbar__menu a li{
+    list-style: none;
+    cursor: pointer;
+    color: #213547;
+}
+
+.navbar__menu a li:hover{
+    color: #EBB9AD;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.navbar__menu a:nth-child(5) li{
+    color: #213547;
+    font-size: 25px;
+}
+
+.navbar__menu a:nth-child(5) li:hover{
+    color: #EBB9AD;
+    font-size:30px;
+    font-weight: 600;
 }

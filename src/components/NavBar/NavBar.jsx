@@ -1,7 +1,7 @@
 
 import './NavBar.css';
 import logo from '../../assets/images/logo.png'
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import { IoMdPerson } from "react-icons/io";
 import CartWidget from '../CartWidget/CartWidget';
 
 const NavBar = () => {
@@ -13,7 +13,13 @@ const NavBar = () => {
                     <a href=""><img src={logo} alt="logo Ale Creations" /></a>
                     <p className='navbar__titulo'>Ale Creations</p>
                 </div>
-                <ItemListContainer/>
+                <ul className='navbar__menu'>
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Shop</li></a>
+                    <a href=""><li>Workshops</li></a>
+                    <a href=""><li>Contact us</li></a>
+                    <a href=""><li><IoMdPerson /></li></a>
+                </ul>
                 <CartWidget/>
             </nav>
         </>

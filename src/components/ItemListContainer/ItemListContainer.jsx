@@ -1,18 +1,17 @@
+
 import './ItemListContainer.css';
 
-const ItemListContainer= ()=>{
+
+const ItemListContainer= (props)=>{
 
     return (
-        <>
-            <ul className='ItemListContainer'>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Workshop</li>
-                <li>Contact us</li>
-                <li><span className="material-symbols-outlined">person</span></li>
-            </ul>
-        </>
+        <div className='itemListContainer__greeting'>        
+            <h1 style={{color:"#EBB9AD", fontWeight:"400"}} >{props.greeting}</h1>
+        </div>
+
+
     )
 }
+
 
 export default ItemListContainer;

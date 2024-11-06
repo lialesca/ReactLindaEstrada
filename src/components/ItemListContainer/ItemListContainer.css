@@ -1,10 +1,5 @@
 
-.ItemListContainer{
+.itemListContainer__greeting{
     display: flex;
-    justify-content: space-between;
-    width: 600px;
-}
-
-.ItemListContainer li{
-    list-style: none;
+    justify-content: center;
 }

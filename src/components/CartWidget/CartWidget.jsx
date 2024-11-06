@@ -1,12 +1,13 @@
 import './CartWidget.css';
+import { ImCart } from "react-icons/im";
 
 const CartWidget = ()=>{
 
     return(
         <>
             <div className='CartWidget__container'>
-            <p>4</p>
-            <span className="material-symbols-outlined">shopping_cart</span>
+                <span><ImCart /></span>
+                <p>4</p>
             </div>
         </>
     )
