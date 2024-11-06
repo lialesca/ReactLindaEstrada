@@ -1,8 +1,7 @@
-# React + Vite
+# AleCreations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El ecommerce creado para el curso de React en CoderHouse
 
-Currently, two official plugins are available:
+Para verlo funcionar en vivo con GitHub Pages utilizar el siguiente link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://lialesca.github.io/ReactLindaEstrada/](https://lialesca.github.io/ReactLindaEstrada/)
