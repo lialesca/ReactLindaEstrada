@@ -1,8 +1,8 @@
 
 import './NavBar.css';
-import logo from '../../assets/images/logo.png'
 import { IoMdPerson } from "react-icons/io";
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -10,17 +10,16 @@ const NavBar = () => {
         <>
             <nav className="navbar__container">
                 <div className='navbar__container_logo'>
-                    <a href=""><img src={logo} alt="logo Ale Creations" /></a>
-                    <p className='navbar__titulo'>Ale Creations</p>
+                    <Link to="/"><p className='navbar__titulo'>Ale Creations</p></Link>
                 </div>
-                <ul className='navbar__menu'>
-                    <a href=""><li>Home</li></a>
-                    <a href=""><li>Shop</li></a>
-                    <a href=""><li>Workshops</li></a>
-                    <a href=""><li>Contact us</li></a>
-                    <a href=""><li><IoMdPerson /></li></a>
+                <ul className='navbar__menu'>    
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/category/celular">Phones</Link></li>
+                    <li><Link to="/category/tablet">Tablets</Link></li>
+                    <li><Link to="/category/computadora">Notebooks</Link></li>
+                    <li><Link to="/category/myProfile"><IoMdPerson /></Link></li>
                 </ul>
-                <CartWidget/>
+                <CartWidget cartCount={6}/>
             </nav>
         </>
     )

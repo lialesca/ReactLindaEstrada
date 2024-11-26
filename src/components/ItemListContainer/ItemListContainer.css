@@ -3,3 +3,14 @@
     display: flex;
     justify-content: center;
 }
+
+.itemListContainer{
+    width: 100vw;
+}
+
+.itemListContainer__loading {
+    position: absolute;
+    top:150px;
+    width: 300px;
+    height: 300px;
+}

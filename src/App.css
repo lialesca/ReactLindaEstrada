@@ -38,3 +38,9 @@
 .read-the-docs {
   color: #888;
 }
+
+:root{
+  --primary:#ED798E;
+  --secondary:#F9DEE3;
+  --black:#213547;
+}

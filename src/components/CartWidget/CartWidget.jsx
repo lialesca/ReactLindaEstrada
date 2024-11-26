@@ -1,13 +1,13 @@
 import './CartWidget.css';
 import { ImCart } from "react-icons/im";
 
-const CartWidget = ()=>{
+const CartWidget = ({cartCount})=>{
 
     return(
         <>
             <div className='CartWidget__container'>
                 <span><ImCart /></span>
-                <p>4</p>
+                <p>{cartCount}</p>
             </div>
         </>
     )

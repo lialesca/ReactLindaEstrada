@@ -1,0 +1,10 @@
+.ItemList__Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    justify-items: center;
+    align-items: center;
+}
